@@ -1,91 +1,143 @@
-.body {
-    font-family: "Roboto", sans-serif;
-    background-color: #E5E5E5;
+:root {
+
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
 
-.header {
-    color: #212121;
-    font-size: 14px;
-    font-style: normal;
+.header__logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+    text-decoration-line: none;
+}
+
+.header__logo span {
+    color: #2196f3;
+}
+
+.header__navigation {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    line-height: normal;
+    font-size: 14px;
+    color: #212121;
     
 }
 
-.menu-item:hover {
-    color: #2196F3;
-
+.header__navigation:hover {
+    color: #2196F3
 }
 
-.logo { 
-    font-size: 26px;
-
+.header__info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575; 
 }
 
-.logo span {
-    color: #2196F3;
-}
-
-.contact-links:hover {
-    color: #2196F3;
+.header__info:hover {
+    color:#2196f3;
 }
 
 .title-section {
-    background-color: #2F303A;
+    background-color: #2f303a;
 }
 
-.title-section-text {
-    color: #FFFFFF;
-    font-size: 44px;
-    line-height: 60px;
+.title-section__text {
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #fff;
 }
 
-.request-button {
-    background-color:#2196F3;
-    color: #FFFFFF;
+.title-section__button {
+    background-color: #2196f3;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    color: #fff;
 }
 
-.work-ethics-title {
+.work-ethics__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
     color: #212121;
-    font-size: 14px;
-    line-height: 16.41px;
-    font-weight: 700;
 }
 
-.work-ethics-text {
-    color: #757575;
-    font-size: 14px;
-    line-height: 24px;
+.work-ethics__text {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-}
-
-.activity.title {
-    color: #212121;
-    font-size: 36px;
-    line-height: 42.19px;
-    font-weight: 700;
-}
-
-.team {
-    background-color: #F5F4FA;
-}
-
-.team-title {
-    color: #212121;
-    font-size: 36px;
-    line-height: 42.19px;
-    font-weight: 700;
-}
-
-.containers-name {
-    color: #212121;
-}
-
-.containers-function {
+    font-size: 14px;
+    line-height: 171%;
     color: #757575;
 }
 
+.activity__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+.team__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+.containers {
+    background-color: #f5f4fa;
+}
+
+.containers__name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+}
+
+.containers__function {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2f303a;
+}
+.footer__logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #fff
+    text-decoration-line: none;
+}
+
+.footer__logo span {
+    color: #2196f3;
+}
+
+.contact span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: rgba(255, 255, 255, 0.6);
+}
