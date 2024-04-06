@@ -5,7 +5,10 @@
     <meta charset="UTF-8"> 
     <title>Portofoliu</title>
     <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -13,10 +16,8 @@
     <!-- Page header -->
 
     <header class="header">
-        <div class="header__logo">
-            <a href="#"><p><span>Web</span>Studio</p></a>
 
-        </div>
+            <a href="#" class="header__logo"><p><span>Web</span>Studio</p></a>
         
         <nav class="header__navigation">
             <ul>
@@ -26,10 +27,10 @@
             </ul>
         </nav>
 
-            <div class="header__contact">
+            <div class="header__info">
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
-            <div class="header__contact">
+            <div class="header__info">
                 <a href="tel:+1212-772-4150">+1212-772-4150</a>
             </div>
     </header>
@@ -38,29 +39,29 @@
 
     <main>
 
-        <section class="main">
+        <section>
 
             <!--Buttons section-->
 
-            <ul>
-                <li><button type="button">All</button></li>
-                <li><button type="button">Web-sites</button></li>
-                <li><button type="button">Apps</button></li>
-                <li><button type="button">Design</button></li>
-                <li><button type="button">Marketing</button></li>
+            <ul class="categories">
+                <li class="categories__item button-blue"><button type="button">All</button></li>
+                <li class="categories__item"><button type="button">Web-sites</button></li>
+                <li class="categories__item"><button type="button">Apps</button></li>
+                <li class="categories__item"><button type="button">Design</button></li>
+                <li class="categories__item"><button type="button">Marketing</button></li>
             </ul>
 
-            <!--Container cu imagini din portofoliu-->
+            <!--Carduri cu imagini din portofoliu-->
 
-            <div>
+            <div class="cards">
                 <div>
                     <img 
                     src="./images/technoduck.jpg"
                     alt="picture-with-employee-cards"
                     width="400"
                     >/
-                    <p><strong>Technoduck</strong></p>
-                    <p>Web-site</p>
+                    <p class="cards__names"><strong>Technoduck</strong></p>
+                    <p class="cards__text">Web-site</p>
                 </div>
 
                 <div>
@@ -69,8 +70,8 @@
                     alt="poster-new-orlean-vs-golden-star"
                     width="400"
                     >/
-                    <p><strong>Poster New Orlean vs Golden Star</strong></p>
-                    <p>Design</p>
+                    <p class="cards__names"><strong>Poster New Orlean vs Golden Star</strong></p>
+                    <p class="cards__text">Design</p>
                 </div>
 
                 <div>
@@ -79,8 +80,8 @@
                     alt="seafood-restaurant-logo"
                     width="400"
                     >/
-                    <p><strong>Seafood Restaurant</strong></p>
-                    <p>Apps</p>
+                    <p class="cards__names"><strong>Seafood Restaurant</strong></p>
+                    <p class="cards__text">Apps</p>
                 </div>
                 
                 <div>
@@ -89,8 +90,8 @@
                     alt="headset"
                     width="400"
                     >/
-                    <p><strong>Project Prime</strong></p>
-                    <p>Marketing</p>
+                    <p class="cards__names"><strong>Project Prime</strong></p>
+                    <p class="cards__text">Marketing</p>
                 </div>
 
                 <div>
@@ -99,8 +100,8 @@
                     alt="labeled boxes"
                     width="400"
                     >/
-                    <p><strong>Project Boxes</strong></p>
-                    <p>Apps</p>
+                    <p class="cards__names"><strong>Project Boxes</strong></p>
+                    <p class="cards__text">Apps</p>
                 </div>
                 
                 <div>
@@ -109,8 +110,8 @@
                     alt="picture-with-inspiration-has-no-borders-website"
                     width="400"
                     >/
-                    <p><strong>Inspiration has no Borders</strong></p>
-                    <p>Web-site</p>
+                    <p class="cards__names"><strong>Inspiration has no Borders</strong></p>
+                    <p class="cards__text">Web-site</p>
                 </div>
 
                 <div>
@@ -119,8 +120,8 @@
                     alt="picture-with-an-article-in-a-magazine"
                     width="400"
                     >/
-                    <p><strong>Limited Edition</strong></p>
-                    <p>Design</p>
+                    <p class="cards__names"><strong>Limited Edition</strong></p>
+                    <p class="cards__text">Design</p>
                 </div>
 
                 <div>
@@ -129,8 +130,8 @@
                     alt="picture-of-a-price-tag"
                     width="400"
                     >/
-                    <p><strong>Project LAB</strong></p>
-                    <p>Marketing</p>
+                    <p class="cards__names"><strong>Project LAB</strong></p>
+                    <p class="cards__text">Marketing</p>
                 </div>
 
                 <div>
@@ -139,8 +140,8 @@
                     alt="hands-typing"
                     width="400"
                     >/
-                    <p><strong>Growing Business</strong></p>
-                    <p>Apps</p>
+                    <p class="cards__names"><strong>Growing Business</strong></p>
+                    <p class="cards__text">Apps</p>
                 </div>
 
             </div>
@@ -156,8 +157,8 @@
         <a href="#" class="footer__logo">
             <p><span>Web</span>Studio</p>
         </a>
-        <address>
-            695 Park Ave, NY 10065, USA 
+        <address class="contact">
+            <span>695 Park Ave, NY 10065, USA </span>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tel:+1212-772-4150">+1212-772-4150</a>
         </address>

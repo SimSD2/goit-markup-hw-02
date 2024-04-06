@@ -16,25 +16,28 @@
     color: #2196f3;
 }
 
-.header__navigation {
+.header__navigation ul {
+    list-style: none;
+}
+
+.header__navigation a {
+    text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
-    
 }
-
 .header__navigation:hover {
     color: #2196F3
 }
 
-.header__info {
+.header__info a {
+    text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #757575; 
 }
-
 .header__info:hover {
     color:#2196f3;
 }
@@ -120,7 +123,6 @@
     font-size: 26px;
     letter-spacing: 0.03em;
     color: #fff
-    text-decoration-line: none;
 }
 
 .footer__logo span {
@@ -132,12 +134,56 @@
     font-weight: 400;
     font-size: 14px;
     color: #fff;
+    font-style: normal;
 }
 
-.contact {
+.contact a {
+    font-style: normal;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration-line: none;
+}
+
+
+
+
+
+
+.categories {
+    list-style: none;
+}
+.categories__item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #212121;
+}
+
+.button-blue {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fff;
+    background-color: #2196f3;
+}
+
+.cards__names {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    color: #212121;
+}
+
+.cards__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #757575;
 }
