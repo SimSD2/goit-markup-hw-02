@@ -4,10 +4,13 @@
     --second-family: "Raleway", sans-serif;
 }
 
+/* Header styling */
+
 .header__logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 26px;
+    font-weight: 700;
     color: #000;
     text-decoration-line: none;
 }
@@ -22,32 +25,34 @@
 
 .header__navigation a {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     color: #212121;
 }
-.header__navigation:hover {
+.header__navigation a:hover {
     color: #2196F3
 }
 
 .header__info a {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     color: #757575; 
 }
-.header__info:hover {
+.header__info a:hover {
     color:#2196f3;
 }
+
+/* Main styling */
 
 .title-section {
     background-color: #2f303a;
 }
 
 .title-section__text {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
@@ -58,7 +63,7 @@
 
 .title-section__button {
     background-color: #2196f3;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
     line-height: 187%;
@@ -66,8 +71,11 @@
     color: #fff;
 }
 
+.work-ethics {
+    list-style: none;
+}
 .work-ethics__title {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -75,7 +83,7 @@
 }
 
 .work-ethics__text {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -83,14 +91,14 @@
 }
 
 .activity__title {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
     color: #212121;
 }
 
 .team__title {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
     color: #212121;
@@ -101,24 +109,27 @@
 }
 
 .containers__name {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     color: #212121;
 }
 
 .containers__function {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     color: #757575;
 }
 
+/*Footer styling*/
+
 .footer {
     background-color: #2f303a;
+    
 }
 .footer__logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
@@ -130,7 +141,7 @@
 }
 
 .contact span {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     color: #fff;
@@ -139,7 +150,7 @@
 
 .contact a {
     font-style: normal;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
@@ -152,26 +163,22 @@
 /* Portfolio page styling */
 
 
-.categories {
-    list-style: none;
-    
-}
-.categories {
-    font-family: "Roboto", sans-serif;
+.categories__item {
+    background-color: #F5F4FA;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 26px;
     color: #212121;
-    background-color: #f5f4fa;
 }
 
-.categories_item:hover {
+.categories__item:hover {
     background-color: #2196f3;
     color: #fff;
 }
 
 .cards__names {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
@@ -179,7 +186,7 @@
 }
 
 .cards__text {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 187%;
