@@ -149,27 +149,25 @@
 
 
 
-
+/* Portfolio page styling */
 
 
 .categories {
     list-style: none;
+    
 }
-.categories__item {
+.categories {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
     color: #212121;
+    background-color: #f5f4fa;
 }
 
-.button-blue {
-    font-family: "Roboto", sans-serif; 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 162%;
-    color: #fff;
+.categories_item:hover {
     background-color: #2196f3;
+    color: #fff;
 }
 
 .cards__names {
