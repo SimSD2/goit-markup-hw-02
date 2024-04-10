@@ -1,7 +1,18 @@
 :root {
-
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
+    --blue: #2196f3; 
+    --original-black: #000;
+    --lighter-black: #212121;
+    --grey: #757575;
+    --dark-grey: #2f303a;
+    --original-white: #fff;
+    --white: #f5f4fa;
+    --rgba-mix: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+    font-family: var(--font-family);
 }
 
 /* Header styling */
@@ -10,12 +21,12 @@
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 26px;
-    color: #000;
+    color: var(--original-black);
     text-decoration-line: none;
 }
 
 .header__logo span {
-    color: #2196f3;
+    color: var(--blue);
 }
 
 .header__navigation ul {
@@ -24,50 +35,48 @@
 
 .header__navigation a {
     text-decoration: none;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    color: #212121;
+    color: var(--lighter-black);
 }
 .header__navigation a:hover {
-    color: #2196F3
+    color: var(--blue);
 }
 
 .header__info a {
     text-decoration: none;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    color: #757575; 
+    color: var(--grey);
 }
 .header__info a:hover {
-    color:#2196f3;
+    color: var(--blue);
 }
 
 /* Main styling */
 
+
+
 .title-section {
-    background-color: #2f303a;
+    background-color: var(--dark-grey);
 }
 
 .title-section__text {
-    font-family: var(--font-family);
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #fff;
+    color: var(--original-white);
 }
 
 .title-section__button {
-    background-color: #2196f3;
-    font-family: var(--font-family);
+    background-color: var(--blue);
     font-weight: 700;
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.06em;
-    color: #fff;
+    color: var(--original-white);
     cursor: pointer;
 }
 
@@ -75,121 +84,112 @@
     list-style: none;
 }
 .work-ethics__title {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--lighter-black);
 }
 
 .work-ethics__text {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
-    color: #757575;
+    color: var(--grey);
 }
 
 .activity__title {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-    color: #212121;
+    color: var(--lighter-black);
 }
 
 .team__title {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-    color: #212121;
+    color: var(--lighter-black);
 }
 
 .containers {
-    background-color: #f5f4fa;
+    background-color: var(--white);
 }
 
 .containers__name {
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    color: #212121;
+    color: var(--lighter-black);
 }
 
 .containers__function {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    color: #757575;
+    color: var(--grey);
 }
 
 /*Footer styling*/
 
 .footer {
-    background-color: #2f303a;
+    background-color: var(--dark-grey);
     
 }
 .footer__logo {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 26px;
-    color: #fff;
+    color: var(--original-white);
     text-decoration-line: none;
 }
 
 .footer__logo span {
-    color: #2196f3;
+    color: var(--blue);
 }
 
 .contact span {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    color: #fff;
+    color: var(--original-white);
     font-style: normal;
 }
 
 .contact a {
     font-style: normal;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--rgba-mix);
     text-decoration-line: none;
 }
 
-
+.contact a:hover {
+    color: var(--blue)
+}
 
 /* Portfolio page styling */
 
 
 .categories__item {
-    background-color: #F5F4FA;
-    font-family: var(--font-family);
+    background-color: var(--white);
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    color: #212121;
+    color: var(--lighter-black)
     cursor: pointer;
 }
 
 .categories__item:hover {
-    background-color: #2196f3;
-    color: #fff;
+    background-color: var(--blue);
+    color: var(--original-white);
 }
 
 .cards__names {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
-    color: #212121;
+    color: var(--lighter-black);
 }
 
 .cards__text {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 187%;
-    color: #757575;
+    color: var(--grey);
 }
