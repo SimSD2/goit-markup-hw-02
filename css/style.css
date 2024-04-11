@@ -14,7 +14,7 @@
 
 .body {
     font-family: var(--font-family);
-    background-color: var(--darker-white);
+    background-color: var(--original-white);
 }
 
 /* Header styling */
