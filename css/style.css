@@ -9,10 +9,12 @@
     --original-white: #fff;
     --white: #f5f4fa;
     --rgba-mix: rgba(255, 255, 255, 0.6);
+    --darker-white: #E5E5E5;
 }
 
 .body {
     font-family: var(--font-family);
+    background-color: var(--darker-white);
 }
 
 /* Header styling */
